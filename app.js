@@ -1,116 +1,6 @@
 // TV and Car data
-const tvData = {
-    "tv_brands": ["Samsung", "LG", "Sony", "TCL", "Hisense", "Toshiba", "Insignia", "Roku"],
-    "tv_sizes": {
-        "32": {"screen_w": 27.9, "screen_h": 15.7, "box_w": 33, "box_h": 21, "box_d": 6},
-        "40": {"screen_w": 34.9, "screen_h": 19.6, "box_w": 41, "box_h": 25, "box_d": 6.5},
-        "43": {"screen_w": 37.5, "screen_h": 21.1, "box_w": 43, "box_h": 27, "box_d": 7},
-        "50": {"screen_w": 43.6, "screen_h": 24.5, "box_w": 50, "box_h": 31, "box_d": 7},
-        "55": {"screen_w": 47.9, "screen_h": 27.0, "box_w": 57, "box_h": 33, "box_d": 8},
-        "60": {"screen_w": 52.3, "screen_h": 29.4, "box_w": 60, "box_h": 35, "box_d": 8},
-        "65": {"screen_w": 56.7, "screen_h": 31.9, "box_w": 63, "box_h": 38, "box_d": 8},
-        "70": {"screen_w": 61.0, "screen_h": 34.3, "box_w": 70, "box_h": 40, "box_d": 8.5},
-        "75": {"screen_w": 65.4, "screen_h": 36.8, "box_w": 75, "box_h": 43, "box_d": 9},
-        "77": {"screen_w": 67.2, "screen_h": 37.8, "box_w": 75, "box_h": 45, "box_d": 11},
-        "85": {"screen_w": 74.1, "screen_h": 41.7, "box_w": 85, "box_h": 48, "box_d": 10},
-        "Insignia 75": {"screen_w": 66.1, "screen_h": 37.8, "box_w": 72.4, "box_h": 43.7, "box_d": 7.5}
-    },
-    "car_models": {
-        "Compact Cars": {
-            "Honda Fit": {"door_w": 38, "door_h": 28, "depth": 65},
-            "Toyota Corolla": {"door_w": 40, "door_h": 30, "depth": 50},
-            "Nissan Sentra": {"door_w": 39, "door_h": 29, "depth": 48},
-            "Honda Civic": {"door_w": 40, "door_h": 30, "depth": 52}
-        },
-        "Sedans": {
-            "Honda Accord": {"door_w": 42, "door_h": 31, "depth": 52},
-            "Toyota Camry": {"door_w": 32, "door_h": 18, "depth": 40},
-            "Nissan Altima": {"door_w": 29, "door_h": 14, "depth": 40},
-            "Ford Fusion": {"door_w": 42, "door_h": 31, "depth": 51},
-            "Chrysler 300": {"door_w": 44, "door_h": 20, "depth": 43},
-            "Dodge Challenger": {"door_w": 36, "door_h": 18, "depth": 40},
-            "Lexus ES": {"door_w": 39, "door_h": 19, "depth": 40}
-        },
-        "Luxury Sedans": {
-            "BMW 3 Series": {"door_w": 36, "door_h": 17, "depth": 38},
-            "Mercedes-Benz C-Class": {"door_w": 39, "door_h": 16, "depth": 39}
-        },
-        "SUVs - Compact": {
-            "Honda CR-V": {"door_w": 42, "door_h": 31, "depth": 55},
-            "Toyota RAV4": {"door_w": 43, "door_h": 30, "depth": 40},
-            "Mazda CX-5": {"door_w": 44, "door_h": 32, "depth": 58},
-            "Nissan Rogue": {"door_w": 43, "door_h": 31, "depth": 56},
-            "Ford Escape": {"door_w": 41, "door_h": 34, "depth": 60},
-            "Chevrolet Equinox": {"door_w": 41, "door_h": 21, "depth": 69},
-            "Hyundai Tucson": {"door_w": 43, "door_h": 32, "depth": 75},
-            "Kia Sportage": {"door_w": 44, "door_h": 33, "depth": 75},
-            "Subaru Forester": {"door_w": 49, "door_h": 32, "depth": 65}
-        },
-        "SUVs - Midsize": {
-            "Honda Pilot": {"door_w": 46, "door_h": 33, "depth": 65},
-            "Toyota Highlander": {"door_w": 47, "door_h": 34, "depth": 67},
-            "Chevrolet Traverse": {"door_w": 49, "door_h": 33, "depth": 70},
-            "Kia Sorento": {"door_w": 44, "door_h": 31, "depth": 60},
-            "Kia Telluride": {"door_w": 47, "door_h": 32, "depth": 68},
-            "Ford Explorer": {"door_w": 46, "door_h": 33, "depth": 66}
-        },
-        "SUVs - Large": {
-            "Toyota 4Runner": {"door_w": 49, "door_h": 36, "depth": 65},
-            "Chevrolet Suburban": {"door_w": 52, "door_h": 36, "depth": 85},
-            "Ford Expedition": {"door_w": 50, "door_h": 35, "depth": 80},
-            "Jeep Wagoneer": {"door_w": 48, "door_h": 34, "depth": 75},
-            "Jeep Grand Cherokee": {"door_w": 42, "door_h": 31, "depth": 70},
-            "Hyundai Palisade": {"door_w": 47, "door_h": 32, "depth": 86},
-            "Subaru Outback": {"door_w": 45, "door_h": 29, "depth": 75},
-            "Ford Bronco": {"door_w": 42, "door_h": 36, "depth": 83},
-            "Jeep Wrangler": {"door_w": 41, "door_h": 35, "depth": 60}
-        },
-        "Minivans": {
-            "Honda Odyssey": {"door_w": 54, "door_h": 38, "depth": 84},
-            "Toyota Sienna": {"door_w": 53, "door_h": 37, "depth": 82},
-            "Chrysler Pacifica": {"door_w": 52, "door_h": 36, "depth": 80},
-            "Kia Carnival": {"door_w": 55, "door_h": 39, "depth": 85}
-        },
-        "Pickup Trucks": {
-            "Ford F-150": {"door_w": 50, "door_h": 22, "depth": 65},
-            "Chevrolet Silverado": {"door_w": 51, "door_h": 23, "depth": 67},
-            "Toyota Tacoma": {"door_w": 48, "door_h": 21, "depth": 60},
-            "Ram 1500": {"door_w": 49, "door_h": 22, "depth": 64},
-            "Rivian R1T": {"door_w": 50, "door_h": 18, "depth": 54},
-            "GMC Sierra": {"door_w": 50, "door_h": 22, "depth": 69},
-            "Honda Ridgeline": {"door_w": 50, "door_h": 20, "depth": 64}
-        },
-        "Electric": {
-            "Tesla Model 3": {"door_w": 39, "door_h": 18, "depth": 42},
-            "Tesla Model Y": {"door_w": 39.5, "door_h": 27, "depth": 40},
-            "Tesla Model S": {"door_w": 38, "door_h": 29, "depth": 42},
-            "Tesla Model X": {"door_w": 41, "door_h": 27, "depth": 44},
-            "Ford Mustang Mach-E": {"door_w": 42, "door_h": 30, "depth": 31}
-        },
-        "Hatchbacks": {
-            "Volkswagen Golf": {"door_w": 40, "door_h": 27, "depth": 29},
-            "Subaru Impreza": {"door_w": 40, "door_h": 30, "depth": 32},
-            "Honda Civic Hatchback": {"door_w": 42, "door_h": 30, "depth": 31},
-            "Mazda 3 Hatchback": {"door_w": 40, "door_h": 27, "depth": 28},
-            "Hyundai Elantra GT": {"door_w": 40, "door_h": 28, "depth": 28},
-            "Kia Forte5": {"door_w": 38, "door_h": 26, "depth": 28},
-            "Toyota Corolla Hatchback": {"door_w": 37, "door_h": 23, "depth": 28}
-        },
-        "Vans": {
-            "Ford Transit Connect": {"door_w": 49, "door_h": 47, "depth": 87},
-            "Mercedes-Benz Sprinter": {"door_w": 61, "door_h": 72, "depth": 137},
-            "Ford Transit": {"door_w": 61, "door_h": 64, "depth": 144},
-            "Ram ProMaster": {"door_w": 60, "door_h": 70, "depth": 130},
-            "Nissan NV": {"door_w": 61, "door_h": 71, "depth": 120},
-            "Mercedes-Benz Metris": {"door_w": 54, "door_h": 49, "depth": 100}
-        },
-        "Wagons": {
-            "Mercedes-Benz E-Class Wagon": {"door_w": 43, "door_h": 33, "depth": 70},
-            "Audi A6 Allroad": {"door_w": 41, "door_h": 30, "depth": 46},
-            "Volvo V60 Cross Country": {"door_w": 43, "door_h": 29, "depth": 42}
-        }
-    }
-};
+// Initialize tvData as null; it will be populated after fetching
+let tvData = null;
 
 // DOM elements
 const form = document.getElementById('fitmentForm');
@@ -123,10 +13,64 @@ const resultsContent = document.getElementById('resultsContent');
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', function() {
-    setupEventListeners();
+    // Fetch data first, then setup event listeners and check policy agreement
+    fetch('/tv_fitment_data.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            tvData = data; // Assign fetched data to tvData
+            setupEventListeners();
+            // Check if the user has already agreed to the policies
+            if (!localStorage.getItem('policiesAgreed')) {
+                showPolicyModal();
+            }
+        })
+        .catch(error => {
+            console.error('Error fetching TV data:', error);
+            showError('Failed to load TV and car data. Please try again later.');
+        });
 });
 
 function setupEventListeners() {
+    // Policy agreement handlers
+    const privacyCheckbox = document.getElementById('privacyPolicyCheckbox');
+    const termsCheckbox = document.getElementById('termsOfServiceCheckbox');
+    const agreeButton = document.getElementById('agreeToPolicies');
+
+    if (privacyCheckbox && termsCheckbox && agreeButton) {
+        const checkAgreement = () => {
+            agreeButton.disabled = !(privacyCheckbox.checked && termsCheckbox.checked);
+        };
+        privacyCheckbox.addEventListener('change', checkAgreement);
+        termsCheckbox.addEventListener('change', checkAgreement);
+        agreeButton.addEventListener('click', handlePolicyAgreement);
+    }
+
+    // Car category change handler
+    carCategory.addEventListener('change', function() {
+        populateCarModels(this.value);
+    });
+
+function setupEventListeners() {
+    // Policy agreement handlers
+    const privacyCheckbox = document.getElementById('privacyPolicyCheckbox');
+    const termsCheckbox = document.getElementById('termsOfServiceCheckbox');
+    const agreeButton = document.getElementById('agreeToPolicies');
+
+    if (privacyCheckbox && termsCheckbox && agreeButton) {
+        const checkAgreement = () => {
+            agreeButton.disabled = !(privacyCheckbox.checked && termsCheckbox.checked);
+        };
+        privacyCheckbox.addEventListener('change', checkAgreement);
+        termsCheckbox.addEventListener('change', checkAgreement);
+        agreeButton.addEventListener('click', handlePolicyAgreement);
+    }
+
+    // Removed redundant event listener setup
     // Car category change handler
     carCategory.addEventListener('change', function() {
         populateCarModels(this.value);
@@ -141,6 +85,12 @@ function setupEventListeners() {
     // Clear form handler
     clearButton.addEventListener('click', function() {
         clearForm();
+    });
+
+    // Add event listener for TV Brand to potentially populate TV Sizes (optional, based on data structure)
+    // This is not implemented in the current JSON structure but could be added later.
+    document.getElementById('tvBrand').addEventListener('change', function() {
+        // Logic to populate TV sizes based on selected brand could go here
     });
 }
 
@@ -434,11 +384,9 @@ function displayResults(result, tvInfo, carInfo) {
         
         if (result.overall === 'no-fit') {
             html += '<li>Consider a delivery service or truck rental</li>';
-            html += '<li>Remove the TV from its box to save space (reduces dimensions by 1-2 inches)</li>';
             html += '<li>Try folding down rear seats for more cargo space</li>';
             html += '<li>Consider a smaller TV size that will fit your car</li>';
         } else {
-            html += '<li>Remove the TV from its box if possible to gain extra space</li>';
             html += '<li>Use plenty of padding and blankets for protection</li>';
             html += '<li>Load carefully and get assistance if needed</li>';
             html += '<li>Keep the TV upright if at all possible</li>';
@@ -475,4 +423,20 @@ function clearForm() {
     carModel.innerHTML = '<option value="">Select Car Model</option>';
     hideError();
     hideResults();
+}
+
+// Policy Modal Functions
+function showPolicyModal() {
+    document.getElementById('policyModal').classList.remove('hidden');
+    document.getElementById('appContent').classList.add('hidden');
+}
+
+function hidePolicyModal() {
+    document.getElementById('policyModal').classList.add('hidden');
+    document.getElementById('appContent').classList.remove('hidden');
+}
+
+function handlePolicyAgreement() {
+    localStorage.setItem('policiesAgreed', 'true');
+    hidePolicyModal();
 }

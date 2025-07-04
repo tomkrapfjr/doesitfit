@@ -50,19 +50,22 @@
 - **Fold seats down**: Maximizes cargo space depth
 - **Remove headrests**: Can provide extra clearance height
 - **Angle loading**: Sometimes diagonal insertion works when straight loading doesn't
-- **Protect the screen**: Use blankets if removing from box
 
 ## When to Consider Delivery:
-- TVs 65" and larger
-- If your vehicle is smaller than midsize SUV
-- If you don't have adequate help for lifting
-- Best Buy often offers free delivery for TVs 55" and up
+- Best Buy offers free delivery on TVs, although same-day delivery may not be available.
+
+## Important Transport Information:
+- If you choose to transport a TV yourself and remove it from its box, you forfeit the right to return the TV if it is damaged during transport.
+- Improper transport, such as placing a TV on the roof of a vehicle or transporting it without the original packaging, significantly increases the risk of damage. Damaged TVs resulting from improper transport are not eligible for return.
+- Consider taking advantage of Best Buy's free delivery service, especially for larger TVs or if you have concerns about safely transporting the TV in your vehicle.
+- If you do transport the TV yourself, ensure it is secured properly within the vehicle and is transported upright if possible, following manufacturer recommendations.
 
 ## Emergency Alternatives:
 - **Rental truck**: U-Haul, Home Depot truck rental
 - **Friend's larger vehicle**: Minivan, large SUV, or pickup
 - **Professional delivery**: Often worth the cost for large TVs
 - **Take out of box**: Remove TV from packaging (keep all materials for returns)
+- **Rideshare with larger vehicle option**: UberX or similar
 
 ---
 *Data based on manufacturer specifications and real-world measurements. Individual vehicles may vary.*

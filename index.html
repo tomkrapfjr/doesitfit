@@ -8,6 +8,25 @@
 </head>
 <body>
     <div class="container">
+        <div id="agreementSection" class="agreement-section">
+            <div class="card">
+                <div class="card__header">
+                    <h2>Welcome to the TV Car Fitment Checker</h2>
+                </div>
+                <div class="card__body">
+                    <p>Before using this tool, please review and agree to our Terms of Service and Privacy Policy.</p>
+                    <div class="form-group">
+                        <input type="checkbox" id="agreeToTOS">
+                        <label for="agreeToTOS">I agree to the <a href="/terms_of_service.md" target="_blank">Terms of Service</a></label>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" id="agreeToPrivacy">
+                        <label for="agreeToPrivacy">I agree to the <a href="/privacy_policy.md" target="_blank">Privacy Policy</a></label>
+                    </div>
+                    <button id="agreeButton" class="btn btn--primary mt-16" disabled>Agree and Continue</button>
+                </div>
+            </div>
+        </div>
         <header class="py-16">
             <h1 class="m-0">TV Car Fitment Checker</h1>
             <p class="mt-8 mb-8">Check if your TV will fit in your car before you buy it!</p>
@@ -175,7 +194,7 @@
                 <ul class="tips-list">
                     <li>Always transport TVs upright when possible to prevent screen damage</li>
                     <li>Use blankets or padding to protect the TV during transport</li>
-                    <li>Remove the TV from its box if dimensions are tight - the box adds extra size</li>
+                    <li>Removing the TV from the box will forfeit the right to return it.</li>
                     <li>Consider folding rear seats down for extra cargo space</li>
                     <li>For larger TVs, consider delivery or rental van services</li>
                     <li>Check your car's maximum cargo opening dimensions in the manual</li>
@@ -189,7 +208,7 @@
         <div class="beta-warning">
             <p><strong>Disclaimer:</strong> This tool is in early beta. Results should be verified with actual measurements. We are not responsible for any TVs that don't fit!</p>
         </div>
-        <p>For feedback, please email: <a href="mailto:tomkrapfjr@gmail.com">tomkrapfjr@gmail.com</a> | <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></p>
+ <p>For feedback, please email: <a href="mailto:tomkrapfjr@gmail.com">tomkrapfjr@gmail.com</a> | <a href="/terms_of_service.md">Terms of Service</a> | <a href="/privacy_policy.md">Privacy Policy</a></p>
     </footer>
 </body>
 </html>
