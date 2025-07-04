@@ -1,0 +1,257 @@
+{
+  "tv_brands": [
+    "Samsung",
+    "LG",
+    "Sony",
+    "TCL",
+    "Hisense",
+    "Toshiba",
+    "Insignia",
+    "Roku"
+  ],
+  "tv_sizes": {
+    "32": {
+      "screen_w": 27.9,
+      "screen_h": 15.7,
+      "box_w": 33,
+      "box_h": 21,
+      "box_d": 6
+    },
+    "40": {
+      "screen_w": 34.9,
+      "screen_h": 19.6,
+      "box_w": 41,
+      "box_h": 25,
+      "box_d": 6.5
+    },
+    "43": {
+      "screen_w": 37.5,
+      "screen_h": 21.1,
+      "box_w": 43,
+      "box_h": 27,
+      "box_d": 7
+    },
+    "50": {
+      "screen_w": 43.6,
+      "screen_h": 24.5,
+      "box_w": 50,
+      "box_h": 31,
+      "box_d": 7
+    },
+    "55": {
+      "screen_w": 47.9,
+      "screen_h": 27.0,
+      "box_w": 57,
+      "box_h": 33,
+      "box_d": 8
+    },
+    "60": {
+      "screen_w": 52.3,
+      "screen_h": 29.4,
+      "box_w": 60,
+      "box_h": 35,
+      "box_d": 8
+    },
+    "65": {
+      "screen_w": 56.7,
+      "screen_h": 31.9,
+      "box_w": 63,
+      "box_h": 38,
+      "box_d": 8
+    },
+    "70": {
+      "screen_w": 61.0,
+      "screen_h": 34.3,
+      "box_w": 70,
+      "box_h": 40,
+      "box_d": 8.5
+    },
+    "75": {
+      "screen_w": 65.4,
+      "screen_h": 36.8,
+      "box_w": 75,
+      "box_h": 43,
+      "box_d": 9
+    },
+    "77": {
+      "screen_w": 67.2,
+      "screen_h": 37.8,
+      "box_w": 75,
+      "box_h": 45,
+      "box_d": 11
+    },
+    "85": {
+      "screen_w": 74.1,
+      "screen_h": 41.7,
+      "box_w": 85,
+      "box_h": 48,
+      "box_d": 10
+    }
+  },
+  "car_models": {
+    "Compact Cars": {
+      "Honda Fit": {
+        "door_w": 38,
+        "door_h": 28,
+        "depth": 65
+      },
+      "Toyota Corolla": {
+        "door_w": 40,
+        "door_h": 30,
+        "depth": 50
+      },
+      "Nissan Sentra": {
+        "door_w": 39,
+        "door_h": 29,
+        "depth": 48
+      },
+      "Honda Civic": {
+        "door_w": 40,
+        "door_h": 30,
+        "depth": 52
+      }
+    },
+    "Sedans": {
+      "Honda Accord": {
+        "door_w": 42,
+        "door_h": 31,
+        "depth": 52
+      },
+      "Toyota Camry": {
+        "door_w": 43,
+        "door_h": 32,
+        "depth": 54
+      },
+      "Nissan Altima": {
+        "door_w": 41,
+        "door_h": 30,
+        "depth": 50
+      },
+      "Ford Fusion": {
+        "door_w": 42,
+        "door_h": 31,
+        "depth": 51
+      }
+    },
+    "SUVs - Compact": {
+      "Honda CR-V": {
+        "door_w": 42,
+        "door_h": 31,
+        "depth": 55
+      },
+      "Toyota RAV4": {
+        "door_w": 43,
+        "door_h": 32,
+        "depth": 57
+      },
+      "Mazda CX-5": {
+        "door_w": 44,
+        "door_h": 32,
+        "depth": 58
+      },
+      "Nissan Rogue": {
+        "door_w": 43,
+        "door_h": 31,
+        "depth": 56
+      }
+    },
+    "SUVs - Midsize": {
+      "Honda Pilot": {
+        "door_w": 46,
+        "door_h": 33,
+        "depth": 65
+      },
+      "Toyota Highlander": {
+        "door_w": 47,
+        "door_h": 34,
+        "depth": 67
+      },
+      "Chevrolet Traverse": {
+        "door_w": 49,
+        "door_h": 33,
+        "depth": 70
+      },
+      "Kia Sorento": {
+        "door_w": 44,
+        "door_h": 31,
+        "depth": 60
+      },
+      "Kia Telluride": {
+        "door_w": 47,
+        "door_h": 32,
+        "depth": 68
+      },
+      "Ford Explorer": {
+        "door_w": 46,
+        "door_h": 33,
+        "depth": 66
+      }
+    },
+    "SUVs - Large": {
+      "Toyota 4Runner": {
+        "door_w": 49,
+        "door_h": 36,
+        "depth": 65
+      },
+      "Chevrolet Suburban": {
+        "door_w": 52,
+        "door_h": 36,
+        "depth": 85
+      },
+      "Ford Expedition": {
+        "door_w": 50,
+        "door_h": 35,
+        "depth": 80
+      },
+      "Jeep Wagoneer": {
+        "door_w": 48,
+        "door_h": 34,
+        "depth": 75
+      }
+    },
+    "Minivans": {
+      "Honda Odyssey": {
+        "door_w": 54,
+        "door_h": 38,
+        "depth": 84
+      },
+      "Toyota Sienna": {
+        "door_w": 53,
+        "door_h": 37,
+        "depth": 82
+      },
+      "Chrysler Pacifica": {
+        "door_w": 52,
+        "door_h": 36,
+        "depth": 80
+      },
+      "Kia Carnival": {
+        "door_w": 55,
+        "door_h": 39,
+        "depth": 85
+      }
+    },
+    "Pickup Trucks": {
+      "Ford F-150": {
+        "door_w": 50,
+        "door_h": 22,
+        "depth": 65
+      },
+      "Chevrolet Silverado": {
+        "door_w": 51,
+        "door_h": 23,
+        "depth": 67
+      },
+      "Toyota Tacoma": {
+        "door_w": 48,
+        "door_h": 21,
+        "depth": 60
+      },
+      "Ram 1500": {
+        "door_w": 49,
+        "door_h": 22,
+        "depth": 64
+      }
+    }
+  }
+}
